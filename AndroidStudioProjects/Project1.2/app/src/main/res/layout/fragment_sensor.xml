@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.mah.af6851.project12.SensorFragment"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#339966">
+
+        <TextView
+            android:text="Name:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvName"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textColor="?attr/colorButtonNormal"
+            android:hapticFeedbackEnabled="true"
+            android:paddingTop="10dp"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#adf442"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:id="@+id/tvDescription"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:text="Comon uses:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUses"
+            android:layout_weight="4.90"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aa42f4"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF">
+
+            <TextView
+                android:text="Accuracy: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mAccuracy"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:text="Power:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/powerTv"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#aa42f4"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Time: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mTime"
+                android:textColor="#FFFFFF"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#adf442"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mEventValue_0"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/mEventValue_1"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/mEventValue_2"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:background ="#339966">
+
+        <Button
+            android:text="Start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnStart"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnStop"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

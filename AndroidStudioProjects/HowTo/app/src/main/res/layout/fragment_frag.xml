@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="af6851.mah.se.howto.frag"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_to_do"
+        android:background="#404040"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:id="@+id/tvWhatToDo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content"
+        android:id="@+id/tvContent"
+        android:paddingTop="6dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/baloo" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnPrevious"
+            android:id="@+id/btnPrevious"
+            android:layout_weight="1"
+            android:onClick="previousInstruction"
+            android:nestedScrollingEnabled="false" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnNext"
+            android:id="@+id/btnNext"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.mah.af6851.dynamicfragment.AppleFragment"
+    android:background="#009900">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to bacon"
+        android:id="@+id/btnApple" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO TO KIWI"
+        android:id="@+id/btnAppleToKiwi" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1" />
+</LinearLayout>

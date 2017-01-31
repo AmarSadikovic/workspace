@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Laboration1B</string>
+    <string name="hello">Hej Studenter!</string>
+    <string name="name">Namn: </string>
+    <string name="phone">Telefon: </string>
+    <string name="email">Emajl: </string>
+</resources>

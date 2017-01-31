@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Lab2c - Android</string>
+    <string name="what_to_do">Att starta en Activity</string>
+    <string name="content">
+        Skapa en intent:\n
+        Intent i = new Intent(this, ActivityToStart.class);\n\n
+        Starta Activity:\n
+        startActivity(i);
+    </string>
+    <string name="btnPrevious">Föregående</string>
+    <string name="btnNext">Nästa</string>
+    <string name="content2">
+        Skapa en intent:\n
+        Intent i = new Intent(this, ActivityToStart.class);\n\n
+        Infoga data:\n
+        i.putExtra("Age", 23);\n
+        i.putExtra("Name", "Eva");
+    </string>
+    <string name="what_to_do2">what to do två</string>
+    <string name="content3">
+        Hämta referens till Intent:\n
+        Intent i = getIntent();\n\n
+        Avläsa data:\n
+        int age = i.getIntExtra("Age");\n
+        String name = i.getStringExtra("Name");
+    </string>
+    <string name="what_to_do3">Avläsa data i en ny Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

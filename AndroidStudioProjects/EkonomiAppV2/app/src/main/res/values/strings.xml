@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EkonomiAppV2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="utgifterKategori">
+        <item>livsmedel</item>
+        <item>fritid</item>
+        <item>resor</item>
+        <item>boende</item>
+        <item>annat</item>
+    </string-array>
+    <string-array name="inkomsterKategori">
+        <item>Lön</item>
+        <item>Övrigt</item>
+    </string-array>
+    <array name="kategori_pics">
+        <item>@drawable/livsmedeltest</item>
+        <item>@drawable/fritidtest</item>
+        <item>@drawable/resor</item>
+        <item>@drawable/boende</item>
+        <item>@drawable/annat</item>
+    </array>
+</resources>

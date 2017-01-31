@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.mah.af6851.laboration2c.ViewerFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/what_to_do"
+        android:background="#404040"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:id="@+id/tvWhatToDo"></TextView>
+
+    <TextView
+        android:layout_width="232dp"
+        android:layout_height="75dp"
+        android:text="@string/content"
+        android:id="@+id/tvContent"
+        android:paddingTop="6dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>

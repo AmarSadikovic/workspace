@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.mah.af6851.laboration2c.InputFragment">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPrevious"
+        android:id="@+id/btnPrevious"
+        android:layout_weight="1"
+        android:onClick="previousInstructions"
+        android:layout_gravity="bottom" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnNext"
+        android:id="@+id/btnNext"
+        android:layout_weight="1"
+        android:layout_gravity="bottom" />
+
+</LinearLayout>
